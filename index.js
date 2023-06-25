@@ -36,8 +36,4 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     }
 };
 
-// invokeAction({action: 'list'});
-// invokeAction({action: 'get', id: 'qdggE76Jtbfd9eWJHrssH'});
-// invokeAction({ action: "remove", id: "1DEXoP8AuCGYc1YgoQ6hw" });
-// invokeAction({action: 'add', id: "1DEXoP8AuCGYc1YgoQ6hw", name: "Abbot Franks", email: "scelerisque@magnis.org", phone: "(186) 568-3720"  })
 invokeAction(argv);
